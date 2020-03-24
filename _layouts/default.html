@@ -5,10 +5,10 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <a href="/">North Hemisphere, by Price</a>
-  <a href="/south">South Hemisphere, by Price</a>
-  <a href="/north-name">North Hemisphere, by Name</a>
-  <a href="/south-name">South Hemisphere, by Name</a>
+  <a href="{{ '/' | relative_url }}">North Hemisphere, by Price</a>
+  <a href="{{ '/south' | relative_url }}">South Hemisphere, by Price</a>
+  <a href="{{ '/north-name' | relative_url }}">North Hemisphere, by Name</a>
+  <a href="{{ '/south-name' | relative_url }}">South Hemisphere, by Name</a>
 
   {{ content }}
 
