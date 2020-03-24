@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+  <title>Bells Pocket Guide</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <a href="/">North Hemisphere, by Price</a>
+  <a href="/south">South Hemisphere, by Price</a>
+  <a href="/north-name">North Hemisphere, by Name</a>
+  <a href="/south-name">South Hemisphere, by Name</a>
+
+  {{ content }}
+
+  <script>
+    const update = () => {
+      const d = new Date()
+      document.body.classList = `month-${d.getMonth()+1} time-${d.getHours()}`
+    }
+    update()
+    setInterval(update, 15000);
+  </script>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Open Sans', sans-serif;
+      font-variant-numeric: tabular-nums;
+      color: #EEEEEE;
+      background: #222222;
+    }
+    a {
+      display: block;
+      font-size: 1.5em;
+      color: #EEEEEE;
+    }
+    h1 {
+      text-align: center;
+      font-size: 3em;
+    }
+    .items {
+      display: grid;
+      grid-auto-rows: 192px;
+      grid-template-columns: auto auto min-content;
+      align-items: center;
+      max-width: 800px;
+      margin: auto;
+    }
+    .items > div {
+      margin-bottom: 6px;
+      display: none;
+      filter: grayscale(1);
+      opacity: 0.7;
+    }
+    .item-image {
+      line-height: 0;
+      text-align: right;
+      padding-right: 20px;
+    }
+    .items img {
+      height: 192px;
+    }
+    .items .name {
+      font-size: 40px;
+      line-height: 50px;
+    }
+    .items .price {
+      font-size: 80px;
+      line-height: 90px;
+    }
+    .item-times {
+      text-align: center;
+      font-size: 12px;
+      padding-right: 20px;
+    }
+    {% for i in (1..12) %}
+    body.month-{{ i }} .month-{{ i }} { display: block; }
+    {% endfor %}
+    {% for i in (0..23) %}
+    body.time-{{ i }} .time-{{ i }} {
+      opacity: 1;
+      filter: none;
+    }
+    {% endfor %}
+  </style>
+</body>
+</html>

@@ -1,0 +1,1626 @@
+- image: false
+  months:
+    north: [4, 5, 6, 7, 8, 9]
+    south: [1, 2, 3, 10, 11, 12]
+  name: Agrias butterfly
+  price: {north: 3000, south: 3000}
+  time: 8am to 5pm
+  times: [8, 9, 10, 11, 12, 13, 14, 15, 16]
+  type: bug
+- image: images/icons/Anchovy.png
+  months:
+    north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  name: Anchovy
+  price: {north: 200, south: 200}
+  time: 4am to 9pm
+  times: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+  type: fish
+- image: images/icons/Angelfish.png
+  months:
+    north: [5, 6, 7, 8, 9, 10]
+    south: [1, 2, 3, 4, 11, 12]
+  name: Angelfish
+  price: {north: 3000, south: 3000}
+  time: 4pm to 9am
+  times: [16, 17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7, 8]
+  type: fish
+- image: images/icons/Ant.png
+  months:
+    north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  name: Ant
+  price: {north: 0, south: 0}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: bug
+- image: images/icons/Arapaima.png
+  months:
+    north: [6, 7, 8, 9]
+    south: [1, 2, 3, 12]
+  name: Arapaima
+  price: {north: 10000, south: 10000}
+  time: 4pm to 9am
+  times: [16, 17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7, 8]
+  type: fish
+- image: images/icons/Arowana.png
+  months:
+    north: [6, 7, 8, 9]
+    south: [1, 2, 3, 12]
+  name: Arowana
+  price: {north: 10000, south: 10000}
+  time: 4pm to 9am
+  times: [16, 17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7, 8]
+  type: fish
+- image: false
+  months:
+    north: [4, 5, 6, 7, 8, 9]
+    south: [1, 2, 3, 10, 11, 12]
+  name: Atlas moth
+  price: {north: 3000, south: 3000}
+  time: 7pm to 4am
+  times: [19, 20, 21, 22, 23, 0, 1, 2, 3]
+  type: bug
+- image: images/icons/Bagworm.png
+  months:
+    north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  name: Bagworm
+  price: {north: 600, south: 600}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: bug
+- image: images/icons/Banded dragonfly.png
+  months:
+    north: [5, 6, 7, 8, 9, 10]
+    south: [1, 2, 3, 4, 11, 12]
+  name: Banded dragonfly
+  price: {north: 4500, south: 4500}
+  time: 8am to 5pm
+  times: [8, 9, 10, 11, 12, 13, 14, 15, 16]
+  type: bug
+- image: images/icons/Barred knifejaw.png
+  months:
+    north: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+    south: [1, 2, 3, 4, 5, 9, 10, 11, 12]
+  name: Barred knifejaw
+  price: {north: 5000, south: 5000}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: fish
+- image: images/icons/Barreleye.png
+  months:
+    north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  name: Barreleye
+  price: {north: 15000, south: 15000}
+  time: 9pm to 4am
+  times: [21, 22, 23, 0, 1, 2, 3]
+  type: fish
+- image: images/icons/Bell cricket.png
+  months:
+    north: [9, 10]
+    south: [3, 4]
+  name: Bell cricket
+  price: {north: 430, south: 430}
+  time: 5pm to 8am
+  times: [17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7]
+  type: bug
+- image: images/icons/Betta.png
+  months:
+    north: [5, 6, 7, 8, 9, 10]
+    south: [1, 2, 3, 4, 11, 12]
+  name: Betta
+  price: {north: 2500, south: 2500}
+  time: 9am to 4pm
+  times: [9, 10, 11, 12, 13, 14, 15]
+  type: fish
+- image: images/icons/Bitterling.png
+  months:
+    north: [1, 2, 3, 11, 12]
+    south: [5, 6, 7, 8, 9]
+  name: Bitterling
+  price: {north: 900, south: 900}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: fish
+- image: images/icons/Black bass.png
+  months:
+    north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  name: Black bass
+  price: {north: 400, south: 400}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: fish
+- image: images/icons/Blowfish.png
+  months:
+    north: [1, 2, 11, 12]
+    south: [5, 6, 7, 8]
+  name: Blowfish
+  price: {north: 0, south: 0}
+  time: 6pm to 4am
+  times: [18, 19, 20, 21, 22, 23, 0, 1, 2, 3]
+  type: fish
+- image: images/icons/Blue marlin.png
+  months:
+    north: [1, 2, 3, 4, 7, 8, 9, 11, 12]
+    south: [1, 2, 3, 5, 6, 7, 8, 9, 10]
+  name: Blue marlin
+  price: {north: 10000, south: 10000}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: fish
+- image: images/icons/Blue weevil beetle.png
+  months:
+    north: [7, 8]
+    south: [7, 8]
+  name: Blue weevil beetle
+  price: {north: 0, south: 0}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: bug
+- image: images/icons/Bluegill.png
+  months:
+    north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  name: Bluegill
+  price: {north: 180, south: 180}
+  time: 9am to 4pm
+  times: [9, 10, 11, 12, 13, 14, 15]
+  type: fish
+- image: false
+  months:
+    north: [7, 8]
+    south: [7, 8]
+  name: Brown cicada
+  price: {north: 0, south: 0}
+  time: 8am to 5pm
+  times: [8, 9, 10, 11, 12, 13, 14, 15, 16]
+  type: bug
+- image: images/icons/Butterfly fish.png
+  months:
+    north: [4, 5, 6, 7, 8, 9]
+    south: [1, 2, 3, 10, 11, 12]
+  name: Butterfly fish
+  price: {north: 1000, south: 1000}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: fish
+- image: images/icons/Carp.png
+  months:
+    north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  name: Carp
+  price: {north: 300, south: 300}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: fish
+- image: images/icons/Catfish.png
+  months:
+    north: [5, 6, 7, 8, 9, 10]
+    south: [1, 2, 3, 4, 11, 12]
+  name: Catfish
+  price: {north: 800, south: 800}
+  time: 4pm to 9am
+  times: [16, 17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7, 8]
+  type: fish
+- image: images/icons/Centipede.png
+  months:
+    north: [1, 2, 3, 4, 5, 6, 9, 10, 11, 12]
+    south: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  name: Centipede
+  price: {north: 300, south: 300}
+  time: 4pm to 11pm
+  times: [16, 17, 18, 19, 20, 21, 22]
+  type: bug
+- image: images/icons/Char.png
+  months:
+    north: [3, 4, 5, 6, 9, 10, 11]
+    south: [3, 4, 5, 9, 10, 11, 12]
+  name: Char
+  price: {north: 3800, south: 3800}
+  time: 4pm to 9am
+  times: [16, 17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7, 8]
+  type: fish
+- image: images/icons/Cherry Salmon.png
+  months:
+    north: [3, 4, 5, 6, 9, 10, 11]
+    south: [3, 4, 5, 9, 10, 11, 12]
+  name: Cherry Salmon
+  price: {north: 1000, south: 1000}
+  time: 4pm to 9am
+  times: [16, 17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7, 8]
+  type: fish
+- image: images/icons/Cicada shell.png
+  months:
+    north: [7, 8]
+    south: [7, 8]
+  name: Cicada shell
+  price: {north: 0, south: 0}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: bug
+- image: images/icons/Citrus Long-horned Beetle.png
+  months:
+    north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  name: Citrus Long-horned Beetle
+  price: {north: 350, south: 350}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: bug
+- image: images/icons/Clownfish.png
+  months:
+    north: [4, 5, 6, 7, 8, 9]
+    south: [1, 2, 3, 10, 11, 12]
+  name: Clownfish
+  price: {north: 650, south: 650}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: fish
+- image: images/icons/Coelacanth.png
+  months:
+    north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  name: Coelacanth
+  price: {north: 15000, south: 15000}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: fish
+- image: images/icons/Common bluebottle.png
+  months:
+    north: [4, 5, 6, 7, 8]
+    south: [4, 5, 6, 7, 8]
+  name: Common bluebottle
+  price: {north: 300, south: 300}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: bug
+- image: images/icons/Common butterfly.png
+  months:
+    north: [1, 2, 3, 4, 5, 6, 9, 10, 11, 12]
+    south: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  name: Common butterfly
+  price: {north: 160, south: 160}
+  time: 4am to 7pm
+  times: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+  type: bug
+- image: false
+  months:
+    north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  name: Conch
+  price: {north: 700, south: 700}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: shell
+- image: false
+  months:
+    north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  name: Coral
+  price: {north: 250, south: 250}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: shell
+- image: false
+  months:
+    north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  name: Cowries
+  price: {north: 60, south: 60}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: shell
+- image: images/icons/Crawfish.png
+  months:
+    north: [4, 5, 6, 7, 8, 9]
+    south: [1, 2, 3, 10, 11, 12]
+  name: Crawfish
+  price: {north: 200, south: 200}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: fish
+- image: images/icons/Cricket.png
+  months:
+    north: [9, 10, 11]
+    south: [3, 4, 5]
+  name: Cricket
+  price: {north: 130, south: 130}
+  time: 5pm to 8am
+  times: [17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7]
+  type: bug
+- image: images/icons/Crucian carp.png
+  months:
+    north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  name: Crucian carp
+  price: {north: 160, south: 160}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: fish
+- image: false
+  months:
+    north: [7, 8]
+    south: [7, 8]
+  name: Cyclommatus stag
+  price: {north: 0, south: 0}
+  time: 5pm to 8am
+  times: [17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7]
+  type: bug
+- image: images/icons/Dab.png
+  months:
+    north: [1, 2, 3, 4, 10, 11, 12]
+    south: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  name: Dab
+  price: {north: 300, south: 300}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: fish
+- image: images/icons/Dace.png
+  months:
+    north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  name: Dace
+  price: {north: 240, south: 240}
+  time: 4pm to 9am
+  times: [16, 17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7, 8]
+  type: fish
+- image: images/icons/Damselfly.png
+  months:
+    north: [1, 2, 11, 12]
+    south: [1, 2, 11, 12]
+  name: Damselfly
+  price: {north: 0, south: 0}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: bug
+- image: images/icons/Darner dragonfly.png
+  months:
+    north: [4, 5, 6, 7, 8, 9, 10]
+    south: [1, 2, 3, 4, 10, 11, 12]
+  name: Darner dragonfly
+  price: {north: 230, south: 230}
+  time: 8am to 5pm
+  times: [8, 9, 10, 11, 12, 13, 14, 15, 16]
+  type: bug
+- image: images/icons/Diving beetle.png
+  months:
+    north: [5, 6, 7, 8, 9]
+    south: [1, 2, 11, 12]
+  name: Diving beetle
+  price: {north: 800, south: 800}
+  time: 8am to 7pm
+  times: [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+  type: bug
+- image: images/icons/Dorado.png
+  months:
+    north: [6, 7, 8, 9]
+    south: [1, 2, 3, 12]
+  name: Dorado
+  price: {north: 15000, south: 15000}
+  time: 4am to 9pm
+  times: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+  type: fish
+- image: images/icons/Drone beetle.png
+  months:
+    north: [6, 7, 8]
+    south: [6, 7, 8]
+  name: Drone beetle
+  price: {north: 0, south: 0}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: bug
+- image: false
+  months:
+    north: []
+    south: []
+  name: Dung beetle
+  price: {north: 0, south: 0}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: bug
+- image: images/icons/Earth-boring Dung Beetle.png
+  months:
+    north: [7, 8, 9]
+    south: [1, 2, 3]
+  name: Earth-boring Dung Beetle
+  price: {north: 300, south: 0}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: bug
+- image: images/icons/Emperor butterfly.png
+  months:
+    north: [1, 2, 3, 6, 7, 8, 9, 12]
+    south: [1, 2, 3, 6, 7, 8, 9, 12]
+  name: Emperor butterfly
+  price: {north: 4000, south: 4000}
+  time: 5pm to 8am
+  times: [17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7]
+  type: bug
+- image: false
+  months:
+    north: [7, 8]
+    south: [7, 8]
+  name: Evening cicada
+  price: {north: 0, south: 0}
+  time: 4am to 8am
+  times: [4, 5, 6, 7]
+  type: bug
+- image: false
+  months:
+    north: [6]
+    south: [6]
+  name: Firefly
+  price: {north: 0, south: 0}
+  time: 7pm to 4am
+  times: [19, 20, 21, 22, 23, 0, 1, 2, 3]
+  type: bug
+- image: images/icons/Flea.png
+  months:
+    north: [4, 5, 6, 7, 8, 9, 10, 11]
+    south: [1, 2, 3, 4, 5, 10, 11, 12]
+  name: Flea
+  price: {north: 0, south: 0}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: bug
+- image: false
+  months:
+    north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  name: Fly
+  price: {north: 0, south: 60}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: bug
+- image: images/icons/Football Fish.png
+  months:
+    north: [1, 2, 3, 11, 12]
+    south: [5, 6, 7, 8, 9]
+  name: Football Fish
+  price: {north: 2500, south: 2500}
+  time: 4pm to 9am
+  times: [16, 17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7, 8]
+  type: fish
+- image: images/icons/Freshwater Goby.png
+  months:
+    north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  name: Freshwater Goby
+  price: {north: 400, south: 400}
+  time: 4pm to 9am
+  times: [16, 17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7, 8]
+  type: fish
+- image: images/icons/Frog.png
+  months:
+    north: [5, 6, 7, 8]
+    south: [1, 2, 11, 12]
+  name: Frog
+  price: {north: 0, south: 0}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: fish
+- image: images/icons/Gar.png
+  months:
+    north: [7, 8, 9, 10]
+    south: [1, 2, 3, 4]
+  name: Gar
+  price: {north: 6000, south: 6000}
+  time: 4pm to 9am
+  times: [16, 17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7, 8]
+  type: fish
+- image: images/icons/Giant Trevally.png
+  months:
+    north: [5, 6, 7, 8, 9, 10]
+    south: [1, 2, 3, 4, 11, 12]
+  name: Giant Trevally
+  price: {north: 0, south: 0}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: fish
+- image: false
+  months:
+    north: [7, 8]
+    south: [7, 8]
+  name: Giant cicada
+  price: {north: 0, south: 0}
+  time: 8am to 5pm
+  times: [8, 9, 10, 11, 12, 13, 14, 15, 16]
+  type: bug
+- image: false
+  months:
+    north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  name: Giant clam
+  price: {north: 450, south: 450}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: shell
+- image: images/icons/Giant snakehead.png
+  months:
+    north: [6, 7, 8]
+    south: [1, 2, 12]
+  name: Giant snakehead
+  price: {north: 0, south: 0}
+  time: 9am to 4pm
+  times: [9, 10, 11, 12, 13, 14, 15]
+  type: fish
+- image: false
+  months:
+    north: [7, 8]
+    south: [7, 8]
+  name: Giant stag
+  price: {north: 0, south: 0}
+  time: 11pm to 8am
+  times: [23, 0, 1, 2, 3, 4, 5, 6, 7]
+  type: bug
+- image: images/icons/Giant water bug.png
+  months:
+    north: [4, 5, 6, 7, 8, 9]
+    south: [1, 2, 3, 10, 11, 12]
+  name: Giant water bug
+  price: {north: 2000, south: 0}
+  time: 7pm to 8am
+  times: [19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7]
+  type: bug
+- image: images/icons/Giraffe stag.png
+  months:
+    north: [7, 8]
+    south: [7, 8]
+  name: Giraffe stag
+  price: {north: 0, south: 0}
+  time: 5pm to 8am
+  times: [17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7]
+  type: bug
+- image: images/icons/Golden Trout.png
+  months:
+    north: [3, 4, 5, 9, 10, 11]
+    south: [3, 4, 5, 9, 10, 11]
+  name: Golden Trout
+  price: {north: 15000, south: 15000}
+  time: 4pm to 9am
+  times: [16, 17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7, 8]
+  type: fish
+- image: false
+  months:
+    north: [7, 8]
+    south: [7, 8]
+  name: Golden stag
+  price: {north: 0, south: 0}
+  time: 5pm to 8am
+  times: [17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7]
+  type: bug
+- image: images/icons/Goldfish.png
+  months:
+    north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  name: Goldfish
+  price: {north: 1300, south: 1300}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: fish
+- image: false
+  months:
+    north: [6, 7, 8, 9]
+    south: [1, 2, 3, 12]
+  name: Goliath beetle
+  price: {north: 0, south: 0}
+  time: 5pm to 8am
+  times: [17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7]
+  type: bug
+- image: images/icons/Grasshopper.png
+  months:
+    north: [7, 8, 9]
+    south: [1, 2, 3]
+  name: Grasshopper
+  price: {north: 160, south: 160}
+  time: 8am to 5pm
+  times: [8, 9, 10, 11, 12, 13, 14, 15, 16]
+  type: bug
+- image: images/icons/Great White Shark.png
+  months:
+    north: [6, 7, 8, 9]
+    south: [1, 2, 3, 12]
+  name: Great White Shark
+  price: {north: 15000, south: 15000}
+  time: 4pm to 9am
+  times: [16, 17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7, 8]
+  type: fish
+- image: images/icons/Great purple emperor.png
+  months:
+    north: [5, 6, 7, 8]
+    south: [5, 6, 7, 8]
+  name: Great purple emperor
+  price: {north: 0, south: 0}
+  time: 4am to 7pm
+  times: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+  type: bug
+- image: images/icons/Guppy.png
+  months:
+    north: [4, 5, 6, 7, 8, 9, 10, 11]
+    south: [1, 2, 3, 4, 5, 10, 11, 12]
+  name: Guppy
+  price: {north: 0, south: 0}
+  time: 9am to 4pm
+  times: [9, 10, 11, 12, 13, 14, 15]
+  type: fish
+- image: images/icons/Hammerhead Shark.png
+  months:
+    north: [6, 7, 8, 9]
+    south: [1, 2, 3, 12]
+  name: Hammerhead Shark
+  price: {north: 8000, south: 8000}
+  time: 4pm to 9am
+  times: [16, 17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7, 8]
+  type: fish
+- image: images/icons/Hermit crab.png
+  months:
+    north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  name: Hermit crab
+  price: {north: 1000, south: 1000}
+  time: 7pm to 8am
+  times: [19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7]
+  type: bug
+- image: images/icons/Honeybee.png
+  months:
+    north: [3, 4, 5, 6, 7]
+    south: [3, 4, 5, 6, 7]
+  name: Honeybee
+  price: {north: 200, south: 200}
+  time: 8am to 5pm
+  times: [8, 9, 10, 11, 12, 13, 14, 15, 16]
+  type: bug
+- image: false
+  months:
+    north: [7, 8]
+    south: [7, 8]
+  name: Horned atlas
+  price: {north: 0, south: 0}
+  time: 5pm to 8am
+  times: [17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7]
+  type: bug
+- image: false
+  months:
+    north: [7, 8]
+    south: [7, 8]
+  name: Horned dynastid
+  price: {north: 0, south: 0}
+  time: 5pm to 8am
+  times: [17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7]
+  type: bug
+- image: false
+  months:
+    north: [7, 8]
+    south: [7, 8]
+  name: Horned elephant
+  price: {north: 0, south: 0}
+  time: 5pm to 8am
+  times: [17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7]
+  type: bug
+- image: false
+  months:
+    north: [7, 8]
+    south: [7, 8]
+  name: Horned hercules
+  price: {north: 0, south: 0}
+  time: 5pm to 8am
+  times: [17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7]
+  type: bug
+- image: images/icons/Horse mackerel.png
+  months:
+    north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  name: Horse mackerel
+  price: {north: 150, south: 150}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: fish
+- image: false
+  months:
+    north: [4, 5, 6, 7, 8]
+    south: [4, 5, 6, 7, 8]
+  name: Jewel beetle
+  price: {north: 2400, south: 2400}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: bug
+- image: images/icons/Killifish.png
+  months:
+    north: [4, 5, 6, 7, 8]
+    south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  name: Killifish
+  price: {north: 0, south: 0}
+  time: 9am to 4pm
+  times: [9, 10, 11, 12, 13, 14, 15]
+  type: fish
+- image: images/icons/King Salmon.png
+  months:
+    north: [9]
+    south: [3]
+  name: King Salmon
+  price: {north: 1800, south: 1800}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: fish
+- image: images/icons/Koi.png
+  months:
+    north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  name: Koi
+  price: {north: 4000, south: 4000}
+  time: 4pm to 9am
+  times: [16, 17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7, 8]
+  type: fish
+- image: images/icons/Ladybug.png
+  months:
+    north: [3, 4, 5, 6, 10]
+    south: [3, 4, 5, 6, 10]
+  name: Ladybug
+  price: {north: 200, south: 200}
+  time: 8am to 5pm
+  times: [8, 9, 10, 11, 12, 13, 14, 15, 16]
+  type: bug
+- image: images/icons/Loach.png
+  months:
+    north: [3, 4, 5]
+    south: [9, 10, 11]
+  name: Loach
+  price: {north: 400, south: 400}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: fish
+- image: images/icons/Long locust.png
+  months:
+    north: [4, 5, 6, 7, 8, 9, 10, 11]
+    south: [1, 2, 3, 4, 5, 10, 11, 12]
+  name: Long locust
+  price: {north: 200, south: 200}
+  time: 8am to 7pm
+  times: [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+  type: bug
+- image: images/icons/Madagascan sunset moth.png
+  months:
+    north: [4, 5, 6, 7, 8, 9]
+    south: [1, 2, 3, 10, 11, 12]
+  name: Madagascan sunset moth
+  price: {north: 2500, south: 2500}
+  time: 8am to 4pm
+  times: [8, 9, 10, 11, 12, 13, 14, 15]
+  type: bug
+- image: images/icons/Mahi-mahi.png
+  months:
+    north: [5, 6, 7, 8, 9, 10]
+    south: [1, 2, 3, 4, 11, 12]
+  name: Mahi-mahi
+  price: {north: 6000, south: 6000}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: fish
+- image: images/icons/Man-faced stink bug.png
+  months:
+    north: [3, 4, 5, 6, 7, 8, 9, 10]
+    south: [1, 2, 3, 4, 9, 10, 11, 12]
+  name: Man-faced stink bug
+  price: {north: 1000, south: 1000}
+  time: 7pm to 8am
+  times: [19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7]
+  type: bug
+- image: images/icons/Mantis.png
+  months:
+    north: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+    south: [1, 2, 3, 4, 5, 9, 10, 11, 12]
+  name: Mantis
+  price: {north: 430, south: 430}
+  time: 8am to 5pm
+  times: [8, 9, 10, 11, 12, 13, 14, 15, 16]
+  type: bug
+- image: images/icons/Migratory locust.png
+  months:
+    north: [8, 9, 10, 11]
+    south: [2, 3, 4, 5]
+  name: Migratory locust
+  price: {north: 600, south: 600}
+  time: 8am to 7pm
+  times: [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+  type: bug
+- image: images/icons/Mitten Crab.png
+  months:
+    north: [9, 10, 11]
+    south: [3, 4, 5]
+  name: Mitten Crab
+  price: {north: 2000, south: 2000}
+  time: 4pm to 9am
+  times: [16, 17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7, 8]
+  type: fish
+- image: false
+  months:
+    north: [7, 8]
+    south: [7, 8]
+  name: Miyama stag
+  price: {north: 0, south: 0}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: bug
+- image: images/icons/Mole cricket.png
+  months:
+    north: [1, 2, 3, 4, 5, 11, 12]
+    south: [1, 2, 3, 4, 5, 11, 12]
+  name: Mole cricket
+  price: {north: 500, south: 500}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: bug
+- image: images/icons/Monarch butterfly.png
+  months:
+    north: [9, 10, 11]
+    south: [3, 4, 5]
+  name: Monarch butterfly
+  price: {north: 140, south: 140}
+  time: 4am to 5pm
+  times: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+  type: bug
+- image: images/icons/Moray eel.png
+  months:
+    north: [8, 9, 10]
+    south: [2, 3, 4]
+  name: Moray eel
+  price: {north: 2000, south: 2000}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: fish
+- image: images/icons/Mosquito.png
+  months:
+    north: [6, 7, 8, 9]
+    south: [1, 2, 3, 12]
+  name: Mosquito
+  price: {north: 130, south: 130}
+  time: 5pm to 4am
+  times: [17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3]
+  type: bug
+- image: images/icons/Moth.png
+  months:
+    north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  name: Moth
+  price: {north: 130, south: 130}
+  time: 7pm to 4am
+  times: [19, 20, 21, 22, 23, 0, 1, 2, 3]
+  type: bug
+- image: images/icons/Napoleonfish.png
+  months:
+    north: [7, 8]
+    south: [1, 2]
+  name: Napoleonfish
+  price: {north: 10000, south: 10000}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: fish
+- image: images/icons/Neon tetra.png
+  months:
+    north: [4, 5, 6, 7, 8, 9, 10, 11]
+    south: [1, 2, 3, 4, 5, 10, 11, 12]
+  name: Neon tetra
+  price: {north: 500, south: 500}
+  time: 9am to 4pm
+  times: [9, 10, 11, 12, 13, 14, 15]
+  type: fish
+- image: images/icons/Nibble Fish.png
+  months:
+    north: [5, 6, 7, 8, 9]
+    south: [1, 2, 3, 11, 12]
+  name: Nibble Fish
+  price: {north: 1500, south: 1500}
+  time: 9am to 4pm
+  times: [9, 10, 11, 12, 13, 14, 15]
+  type: fish
+- image: images/icons/Oarfish.png
+  months:
+    north: [1, 2, 3, 4, 5, 12]
+    south: [5, 6, 7, 8, 9, 10, 11]
+  name: Oarfish
+  price: {north: 9000, south: 9000}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: fish
+- image: images/icons/Ocean Sunfish.png
+  months:
+    north: [7, 8, 9]
+    south: [1, 2, 3]
+  name: Ocean Sunfish
+  price: {north: 4000, south: 4000}
+  time: 4am to 9pm
+  times: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+  type: fish
+- image: images/icons/Olive Flounder.png
+  months:
+    north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  name: Olive Flounder
+  price: {north: 800, south: 800}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: fish
+- image: images/icons/Orchid mantis.png
+  months:
+    north: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+    south: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  name: Orchid mantis
+  price: {north: 2400, south: 2400}
+  time: 8am to 5pm
+  times: [8, 9, 10, 11, 12, 13, 14, 15, 16]
+  type: bug
+- image: false
+  months:
+    north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  name: Oyster shell
+  price: {north: 450, south: 450}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: shell
+- image: images/icons/Pale chub.png
+  months:
+    north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  name: Pale chub
+  price: {north: 160, south: 200}
+  time: 9am to 4pm
+  times: [9, 10, 11, 12, 13, 14, 15]
+  type: fish
+- image: images/icons/Paper kite butterfly.png
+  months:
+    north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  name: Paper kite butterfly
+  price: {north: 1000, south: 1000}
+  time: 8am to 7pm
+  times: [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+  type: bug
+- image: images/icons/Peacock butterfly.png
+  months:
+    north: [3, 4, 5, 6]
+    south: [3, 4, 5, 6]
+  name: Peacock butterfly
+  price: {north: 2500, south: 2500}
+  time: 4am to 7pm
+  times: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+  type: bug
+- image: false
+  months:
+    north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  name: Pearl oyster
+  price: {north: 1200, south: 1200}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: shell
+- image: images/icons/Pike.png
+  months:
+    north: [9, 10, 11, 12]
+    south: [3, 4, 5, 6]
+  name: Pike
+  price: {north: 1800, south: 1800}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: fish
+- image: images/icons/Pill bug.png
+  months:
+    north: [1, 2, 3, 4, 5, 6, 9, 10, 11, 12]
+    south: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  name: Pill bug
+  price: {north: 250, south: 250}
+  time: 11pm to 4pm
+  times: [23, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+  type: bug
+- image: images/icons/Piranha.png
+  months:
+    north: [6, 7, 8, 9]
+    south: [1, 2, 3, 12]
+  name: Piranha
+  price: {north: 2500, south: 2500}
+  time: 9am to 4am
+  times: [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3]
+  type: fish
+- image: images/icons/Pond smelt.png
+  months:
+    north: [1, 2, 12]
+    south: [1, 2, 12]
+  name: Pond smelt
+  price: {north: 0, south: 0}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: fish
+- image: images/icons/Pondskater.png
+  months:
+    north: [5, 6, 7, 8, 9]
+    south: [1, 2, 3, 11, 12]
+  name: Pondskater
+  price: {north: 130, south: 130}
+  time: 8am to 7pm
+  times: [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+  type: bug
+- image: images/icons/Pop-eyed Goldfish.png
+  months:
+    north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  name: Pop-eyed Goldfish
+  price: {north: 1300, south: 1300}
+  time: 9am to 4pm
+  times: [9, 10, 11, 12, 13, 14, 15]
+  type: fish
+- image: false
+  months:
+    north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  name: Porceletta
+  price: {north: 30, south: 30}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: shell
+- image: images/icons/Puffer fish.png
+  months:
+    north: [7, 8, 9]
+    south: [1, 2, 3]
+  name: Puffer fish
+  price: {north: 250, south: 250}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: fish
+- image: false
+  months:
+    north: [5, 6, 7, 8, 9]
+    south: [1, 2, 3, 11, 12]
+  name: Queen Alexandra's birdwing
+  price: {north: 4000, south: 4000}
+  time: 8am to 4pm
+  times: [8, 9, 10, 11, 12, 13, 14, 15]
+  type: bug
+- image: false
+  months:
+    north: [6, 7, 8, 9]
+    south: [1, 2, 3, 12]
+  name: Rainbow stag
+  price: {north: 0, south: 0}
+  time: 7pm to 8am
+  times: [19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7]
+  type: bug
+- image: images/icons/Rainbowfish.png
+  months:
+    north: [5, 6, 7, 8, 9, 10]
+    south: [1, 2, 3, 4, 11, 12]
+  name: Rainbowfish
+  price: {north: 800, south: 800}
+  time: 9am to 4pm
+  times: [9, 10, 11, 12, 13, 14, 15]
+  type: fish
+- image: false
+  months:
+    north: [1, 2, 4, 5, 6, 7, 8, 9, 12]
+    south: [1, 2, 3, 6, 7, 8, 10, 11, 12]
+  name: Rajah Brooke's Birdwing
+  price: {north: 2500, south: 2500}
+  time: 8am to 5pm
+  times: [8, 9, 10, 11, 12, 13, 14, 15, 16]
+  type: bug
+- image: images/icons/Ranchu Goldfish.png
+  months:
+    north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  name: Ranchu Goldfish
+  price: {north: 4500, south: 4500}
+  time: 9am to 4pm
+  times: [9, 10, 11, 12, 13, 14, 15]
+  type: fish
+- image: images/icons/Ray.png
+  months:
+    north: [8, 9, 10, 11]
+    south: [1, 2, 3, 12]
+  name: Ray
+  price: {north: 3000, south: 3000}
+  time: 4am to 9pm
+  times: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+  type: fish
+- image: images/icons/Red dragonfly.png
+  months:
+    north: [9, 10]
+    south: [3, 4]
+  name: Red dragonfly
+  price: {north: 180, south: 180}
+  time: 8am to 7pm
+  times: [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+  type: bug
+- image: images/icons/Red snapper.png
+  months:
+    north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  name: Red snapper
+  price: {north: 3000, south: 3000}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: fish
+- image: images/icons/Ribbon Eel.png
+  months:
+    north: [6, 7, 8, 9, 10]
+    south: [1, 2, 3, 4, 12]
+  name: Ribbon Eel
+  price: {north: 600, south: 600}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: fish
+- image: images/icons/Rice grasshopper.png
+  months:
+    north: [8, 9, 10, 11]
+    south: [2, 3, 4, 5]
+  name: Rice grasshopper
+  price: {north: 160, south: 160}
+  time: 8am to 7pm
+  times: [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+  type: bug
+- image: false
+  months:
+    north: [7, 8]
+    south: [7, 8]
+  name: Robust cicada
+  price: {north: 0, south: 0}
+  time: 8am to 5pm
+  times: [8, 9, 10, 11, 12, 13, 14, 15, 16]
+  type: bug
+- image: images/icons/Rosalia batesi beetle.png
+  months:
+    north: [5, 6, 7, 8, 9]
+    south: [1, 2, 3, 11, 12]
+  name: Rosalia batesi beetle
+  price: {north: 0, south: 0}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: bug
+- image: images/icons/Saddled Bichir.png
+  months:
+    north: [1, 2, 3, 12]
+    south: [1, 2, 3, 12]
+  name: Saddled Bichir
+  price: {north: 4000, south: 4000}
+  time: 9pm to 4am
+  times: [21, 22, 23, 0, 1, 2, 3]
+  type: fish
+- image: images/icons/Salmon.png
+  months:
+    north: [9]
+    south: [3]
+  name: Salmon
+  price: {north: 700, south: 700}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: fish
+- image: false
+  months:
+    north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  name: Sand dollar
+  price: {north: 120, south: 120}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: shell
+- image: images/icons/Saw Shark.png
+  months:
+    north: [6, 7, 8, 9]
+    south: [1, 2, 3, 12]
+  name: Saw Shark
+  price: {north: 12000, south: 12000}
+  time: 4pm to 9am
+  times: [16, 17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7, 8]
+  type: fish
+- image: false
+  months:
+    north: [7, 8]
+    south: [7, 8]
+  name: Saw stag
+  price: {north: 0, south: 0}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: bug
+- image: false
+  months:
+    north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  name: Scallop shell
+  price: {north: 600, south: 600}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: shell
+- image: false
+  months:
+    north: [7, 8]
+    south: [7, 8]
+  name: Scarab beetle
+  price: {north: 0, south: 0}
+  time: 11pm to 8am
+  times: [23, 0, 1, 2, 3, 4, 5, 6, 7]
+  type: bug
+- image: false
+  months:
+    north: [5, 6, 7, 8, 9, 10]
+    south: [1, 2, 3, 4, 11, 12]
+  name: Scorpion
+  price: {north: 8000, south: 8000}
+  time: 7pm to 4am
+  times: [19, 20, 21, 22, 23, 0, 1, 2, 3]
+  type: bug
+- image: images/icons/Sea bass.png
+  months:
+    north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  name: Sea bass
+  price: {north: 400, south: 400}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: fish
+- image: images/icons/Sea butterfly.png
+  months:
+    north: [1, 2, 3, 12]
+    south: [6, 7, 8, 9]
+  name: Sea butterfly
+  price: {north: 1000, south: 1000}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: fish
+- image: false
+  months:
+    north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  name: Sea snail
+  price: {north: 180, south: 180}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: shell
+- image: images/icons/Seahorse.png
+  months:
+    north: [4, 5, 6, 7, 8, 9, 10, 11]
+    south: [1, 2, 3, 4, 5, 10, 11, 12]
+  name: Seahorse
+  price: {north: 1100, south: 1100}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: fish
+- image: images/icons/Snail.png
+  months:
+    north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  name: Snail
+  price: {north: 250, south: 250}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: bug
+- image: images/icons/Snapping Turtle.png
+  months:
+    north: [4, 5, 6, 7, 8, 9, 10]
+    south: [1, 2, 3, 4, 10, 11, 12]
+  name: Snapping Turtle
+  price: {north: 5000, south: 5000}
+  time: 9pm to 4am
+  times: [21, 22, 23, 0, 1, 2, 3]
+  type: fish
+- image: images/icons/Soft-shelled Turtle.png
+  months:
+    north: [8, 9]
+    south: [2, 3]
+  name: Soft-shelled Turtle
+  price: {north: 3750, south: 3750}
+  time: 4pm to 9am
+  times: [16, 17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7, 8]
+  type: fish
+- image: images/icons/Spider.png
+  months:
+    north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  name: Spider
+  price: {north: 480, south: 480}
+  time: 7pm to 8am
+  times: [19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7]
+  type: bug
+- image: images/icons/Squid.png
+  months:
+    north: [1, 2, 3, 4, 5, 6, 7, 8, 12]
+    south: [1, 2, 6, 7, 8, 9, 10, 11, 12]
+  name: Squid
+  price: {north: 500, south: 500}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: fish
+- image: images/icons/Stinkbug.png
+  months:
+    north: [3, 4, 5, 6, 7, 8, 9, 10]
+    south: [1, 2, 3, 4, 9, 10, 11, 12]
+  name: Stinkbug
+  price: {north: 120, south: 120}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: bug
+- image: images/icons/Stringfish.png
+  months:
+    north: [1, 2, 3, 12]
+    south: [6, 7, 8, 9]
+  name: Stringfish
+  price: {north: 15000, south: 15000}
+  time: 4pm to 9am
+  times: [16, 17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7, 8]
+  type: fish
+- image: images/icons/Sturgeon.png
+  months:
+    north: [1, 2, 3, 9, 10, 11, 12]
+    south: [3, 4, 5, 6, 7, 8, 9]
+  name: Sturgeon
+  price: {north: 10000, south: 10000}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: fish
+- image: images/icons/Suckerfish.png
+  months:
+    north: [6, 7, 8, 9]
+    south: [1, 2, 3, 12]
+  name: Suckerfish
+  price: {north: 1500, south: 1500}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: fish
+- image: images/icons/Surgeonfish.png
+  months:
+    north: [4, 5, 6, 7, 8, 9]
+    south: [1, 2, 3, 10, 11, 12]
+  name: Surgeonfish
+  price: {north: 1000, south: 1000}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: fish
+- image: images/icons/Sweetfish.png
+  months:
+    north: [7, 8, 9]
+    south: [1, 2, 3]
+  name: Sweetfish
+  price: {north: 900, south: 900}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: fish
+- image: images/icons/Tadpole.png
+  months:
+    north: [3, 4, 5, 6, 7]
+    south: [3, 4, 5, 6, 7]
+  name: Tadpole
+  price: {north: 100, south: 100}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: fish
+- image: images/icons/Tarantula.png
+  months:
+    north: [1, 2, 3, 4, 11, 12]
+    south: [1, 2, 3, 4, 11, 12]
+  name: Tarantula
+  price: {north: 8000, south: 8000}
+  time: 7pm to 4am
+  times: [19, 20, 21, 22, 23, 0, 1, 2, 3]
+  type: bug
+- image: images/icons/Tiger beetle.png
+  months:
+    north: [2, 3, 4, 5, 6, 7, 8, 9, 10]
+    south: [1, 2, 3, 4, 8, 9, 10, 11, 12]
+  name: Tiger beetle
+  price: {north: 1500, south: 1500}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: bug
+- image: images/icons/Tiger butterfly.png
+  months:
+    north: [3, 4, 5, 6, 7, 8, 9]
+    south: [1, 2, 3, 9, 10, 11, 12]
+  name: Tiger butterfly
+  price: {north: 240, south: 240}
+  time: 4am to 7pm
+  times: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+  type: bug
+- image: images/icons/Tilapia.png
+  months:
+    north: [6, 7, 8, 9, 10]
+    south: [1, 2, 3, 4, 12]
+  name: Tilapia
+  price: {north: 800, south: 800}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: fish
+- image: images/icons/Tuna.png
+  months:
+    north: [1, 2, 3, 4, 11, 12]
+    south: [5, 6, 7, 8, 9, 10]
+  name: Tuna
+  price: {north: 7000, south: 7000}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: fish
+- image: false
+  months:
+    north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  name: Venus comb
+  price: {north: 150, south: 150}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: shell
+- image: images/icons/Violin beetle.png
+  months:
+    north: [5, 6, 9, 10, 11]
+    south: [3, 4, 5, 11, 12]
+  name: Violin beetle
+  price: {north: 450, south: 450}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: bug
+- image: images/icons/Walker cicada.png
+  months:
+    north: [8, 9]
+    south: [2, 3]
+  name: Walker cicada
+  price: {north: 400, south: 400}
+  time: 8am to 5pm
+  times: [8, 9, 10, 11, 12, 13, 14, 15, 16]
+  type: bug
+- image: images/icons/Walking leaf.png
+  months:
+    north: [7, 8, 9]
+    south: [1, 2, 3]
+  name: Walking leaf
+  price: {north: 600, south: 600}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: bug
+- image: false
+  months:
+    north: [7, 8, 9, 10, 11]
+    south: [6, 7, 8, 9, 10, 11]
+  name: Walking stick
+  price: {north: 0, south: 0}
+  time: 4am to 8am
+  times: [4, 5, 6, 7]
+  type: bug
+- image: images/icons/Wasp.png
+  months:
+    north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  name: Wasp
+  price: {north: 2500, south: 2500}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: bug
+- image: images/icons/Whale shark.png
+  months:
+    north: [6, 7, 8, 9]
+    south: [1, 2, 3, 12]
+  name: Whale shark
+  price: {north: 13000, south: 13000}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: fish
+- image: images/icons/Wharf roach.png
+  months:
+    north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  name: Wharf roach
+  price: {north: 200, south: 200}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: bug
+- image: false
+  months:
+    north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  name: White scallop
+  price: {north: 450, south: 450}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: shell
+- image: images/icons/Yellow butterfly.png
+  months:
+    north: [3, 4, 5, 6, 9, 10]
+    south: [3, 4, 9, 10, 11, 12]
+  name: Yellow butterfly
+  price: {north: 160, south: 160}
+  time: 4am to 7pm
+  times: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+  type: bug
+- image: images/icons/Yellow perch.png
+  months:
+    north: [1, 2, 3, 10, 11, 12]
+    south: [4, 5, 6, 7, 8, 9]
+  name: Yellow perch
+  price: {north: 300, south: 300}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: fish
+- image: images/icons/Zebra turkeyfish.png
+  months:
+    north: [4, 5, 7, 8, 9, 10, 11]
+    south: [1, 2, 3, 4, 5, 10, 11, 12]
+  name: Zebra turkeyfish
+  price: {north: 500, south: 500}
+  time: All Day
+  times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23]
+  type: fish
