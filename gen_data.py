@@ -6,7 +6,7 @@ import requests_cache
 from lxml import html, etree
 import yaml
 
-requests_cache.install_cache(allowable_codes=(200,301,404))
+#requests_cache.install_cache(allowable_codes=(200,301,404))
 _parser = html.HTMLParser(encoding="utf-8")
 
 def parseTime(time):
@@ -42,7 +42,8 @@ def main():
     o = 1 if typ == "fish" else 0
     for el in elems[1:]:
       name = el[0][0].text.strip()
-      imageURL = el[1][0].attrib["href"] if len(el[1]) > 0 else ""
+      imgs = el[1].xpath('.//a/@href')
+      imageURL = imgs[0] if len(imgs) > 0 else ""
       price = el[2].text.strip().replace(",","")
       time = el[4+o][0].text.strip() if len(el[4+o]) > 0 else el[3+o][0][0].text.strip() # Diving beetle hack
       months = []
@@ -51,16 +52,18 @@ def main():
           months.append(i+1)
       price = 0 if price == "?" or price == "-" else int(price)
       times, time = (list(range(24)), "All Day") if time.lower() == "all day" or time == "?" else parseTime(time)
-      data[name]["type"] = typ
-      data[name]["name"] = name
-      data[name]["time"] = time.replace("-", "to")
-      data[name]["times"] = times
-      data[name]["price"][hemi] = price
-      data[name]["months"][hemi] = months
-      data[name]["image"] = dlimg('images/icons/{}.png'.format(name), imageURL)
+      _id = name.lower().replace(" ", "")
+      data[_id]["type"] = typ
+      data[_id]["name"] = name
+      data[_id]["time"] = time.replace("-", "to")
+      data[_id]["times"] = times
+      data[_id]["price"][hemi] = price
+      data[_id]["months"][hemi] = months
+      data[_id]["image"] = dlimg('images/icons/{}.png'.format(_id), imageURL)
 
   def addShell(name, price, url=""):
-    data[name] = {
+    _id = name.lower().replace(" ", "")
+    data[_id] = {
       "type": "shell",
       "name": name,
       "time":"All Day",
@@ -73,7 +76,7 @@ def main():
         "north": price,
         "south": price,
       },
-      "image": dlimg('images/icons/{}.png'.format(name), url)
+      "image": dlimg('images/icons/{}.png'.format(_id), url)
     }
 
   r = requests.get("https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)")
