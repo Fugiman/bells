@@ -7,7 +7,7 @@ layout: default
 <div class="items">
   {% for item in items %}
   <div class="item-image {{ item.type }} {% for m in item.months.north %}month-{{ m }} {% endfor %}{% for t in item.times %}time-{{ t }} {% endfor %}">
-    {% if item.image %}<img src="{{ item.image }}}?{{ site.github.build_revision }}" />{% endif %}
+    {% if item.image %}<img src="{{ item.image }}?{{ site.github.build_revision }}" />{% endif %}
   </div>
   <div class="item-text {{ item.type }} {% for m in item.months.north %}month-{{ m }} {% endfor %}{% for t in item.times %}time-{{ t }} {% endfor %}">
     <span class="name">{{ item.name }}</span>
