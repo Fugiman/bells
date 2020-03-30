@@ -1,0 +1,42 @@
+---
+layout: default
+---
+<h1>South Hemisphere Fishing Guide</h1>
+<p>This lists the fish available <em>right now</em> grouped by location and ordered by shadow size. Using this you should be able to tell what a fish can be by it's shadow.</p>
+<h2>Shadow Sizes</h2>
+<ol>
+  <li>Teeny tiny</li>
+  <li>Small but not too small</li>
+  <li>Medium, healthy but not large</li>
+  <li>Large (Black Bass)</li>
+  <li>Slightly Larger (Sea Bass)</li>
+  <li>Imperceptibly Larger (What you think is a Sea Bass)</li>
+</ol>
+
+{% assign items = site.data.items | where_exp: 'item', 'item.price.south > 0' | where_exp: 'item', 'item.type == "fish"' | sort: 'size' %}
+{% assign sea = items | where_exp: 'item', 'item.location contains "Sea"' %}
+{% assign pier = items | where_exp: 'item', 'item.location contains "Pier"' %}
+{% assign river = items | where_exp: 'item', 'item.location contains "River"' %}
+{% assign pond = items | where_exp: 'item', 'item.location contains "Pond"' %}
+{% assign seaPier = sea | concat: pier | sort: 'size' %}
+
+<h1>Sea</h1>
+<div class="items">
+  {% for item in seaPier %}
+    {% include item.html item=item hemisphere="south" exact=true use_location=true %}
+  {% endfor %}
+</div>
+
+<h1>River</h1>
+<div class="items">
+  {% for item in river %}
+    {% include item.html item=item hemisphere="south" exact=true use_location=true %}
+  {% endfor %}
+</div>
+
+<h1>Pond</h1>
+<div class="items">
+  {% for item in pond %}
+    {% include item.html item=item hemisphere="south" exact=true use_location=true %}
+  {% endfor %}
+</div>

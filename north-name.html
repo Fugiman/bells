@@ -6,16 +6,6 @@ layout: default
 {% assign items = site.data.items | where_exp: 'item', 'item.price.north > 0' | sort: 'name' %}
 <div class="items">
   {% for item in items %}
-  <div class="item-image {{ item.type }} {% for m in item.months.north %}month-{{ m }} {% endfor %}{% for t in item.times %}time-{{ t }} {% endfor %}">
-    {% if item.image %}<img src="{{ item.image }}?{{ site.github.build_revision }}" />{% endif %}
-  </div>
-  <div class="item-text {{ item.type }} {% for m in item.months.north %}month-{{ m }} {% endfor %}{% for t in item.times %}time-{{ t }} {% endfor %}">
-    <span class="name">{{ item.name }}</span>
-    <br>
-    <span class="price">{{ item.price.north }}</span>
-  </div>
-  <div class="item-times {{ item.type }} {% for m in item.months.north %}month-{{ m }} {% endfor %}{% for t in item.times %}time-{{ t }} {% endfor %}">
-    {{ item.time }}
-  </div>
+    {% include item.html item=item hemisphere="north" %}
   {% endfor %}
 </div>

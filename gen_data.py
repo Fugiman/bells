@@ -45,6 +45,7 @@ def main():
       imgs = el[1].xpath('.//a/@href')
       imageURL = imgs[0] if len(imgs) > 0 else ""
       price = el[2].text.strip().replace(",","")
+      location = el[3].text.strip()
       time = el[4+o][0].text.strip() if len(el[4+o]) > 0 else el[3+o][0][0].text.strip() # Diving beetle hack
       months = []
       for (i, mEl) in enumerate(el[5+o:]):
@@ -55,11 +56,14 @@ def main():
       _id = name.lower().replace(" ", "")
       data[_id]["type"] = typ
       data[_id]["name"] = name
+      data[_id]["location"] = location
       data[_id]["time"] = time.replace("-", "to")
       data[_id]["times"] = times
       data[_id]["price"][hemi] = price
       data[_id]["months"][hemi] = months
       data[_id]["image"] = dlimg('images/icons/{}.png'.format(_id), imageURL)
+      if typ == "fish":
+        data[_id]["size"] = el[4].text.strip()
 
   def addShell(name, price, url=""):
     _id = name.lower().replace(" ", "")

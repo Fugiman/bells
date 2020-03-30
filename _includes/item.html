@@ -1,0 +1,18 @@
+<div class="item-image {% if include.exact %}exact{% endif %} {{ include.item.type }} {% for m in include.item.months[include.hemisphere] %}month-{{ m }} {% endfor %}{% for t in include.item.times %}time-{{ t }} {% endfor %}">
+  {% if include.item.image %}<img src="{{ include.item.image }}?{{ site.github.build_revision }}" />{% endif %}
+</div>
+<div class="item-text {% if include.exact %}exact{% endif %} {{ include.item.type }} {% for m in include.item.months[include.hemisphere] %}month-{{ m }} {% endfor %}{% for t in include.item.times %}time-{{ t }} {% endfor %}">
+  <span class="name">{{ include.item.name }}</span>
+  <br>
+  <span class="price">{{ include.item.price[include.hemisphere] }}</span>
+</div>
+{% if include.use_location %}
+<div class="item-location {% if include.exact %}exact{% endif %} {{ include.item.type }} {% for m in include.item.months[include.hemisphere] %}month-{{ m }} {% endfor %}{% for t in include.item.times %}time-{{ t }} {% endfor %}">
+  {{ include.item.location }}
+  <span class="item-size">{{ include.item.size }}</span>
+</div>
+{% else %}
+<div class="item-times {% if include.exact %}exact{% endif %} {{ include.item.type }} {% for m in include.item.months[include.hemisphere] %}month-{{ m }} {% endfor %}{% for t in include.item.times %}time-{{ t }} {% endfor %}">
+  {{ include.item.time }}
+</div>
+{% endif %}

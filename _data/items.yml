@@ -1,4 +1,5 @@
 - image: images/icons/agriasbutterfly.png
+  location: Flying
   months:
     north: [4, 5, 6, 7, 8, 9]
     south: [1, 2, 3, 10, 11, 12]
@@ -8,24 +9,29 @@
   times: [8, 9, 10, 11, 12, 13, 14, 15, 16]
   type: bug
 - image: images/icons/anchovy.png
+  location: Sea
   months:
     north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
     south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
   name: Anchovy
   price: {north: 200, south: 200}
+  size: '2'
   time: 4am to 9pm
   times: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
   type: fish
 - image: images/icons/angelfish.png
+  location: River
   months:
     north: [5, 6, 7, 8, 9, 10]
     south: [1, 2, 3, 4, 11, 12]
   name: Angelfish
   price: {north: 3000, south: 3000}
+  size: '2'
   time: 4pm to 9am
   times: [16, 17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7, 8]
   type: fish
 - image: images/icons/ant.png
+  location: On rotten food
   months:
     north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
     south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
@@ -36,24 +42,29 @@
     21, 22, 23]
   type: bug
 - image: images/icons/arapaima.png
+  location: River
   months:
     north: [6, 7, 8, 9]
     south: [1, 2, 3, 12]
   name: Arapaima
   price: {north: 10000, south: 10000}
+  size: '6'
   time: 4pm to 9am
   times: [16, 17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7, 8]
   type: fish
 - image: images/icons/arowana.png
+  location: River
   months:
     north: [6, 7, 8, 9]
     south: [1, 2, 3, 12]
   name: Arowana
   price: {north: 10000, south: 10000}
+  size: '4'
   time: 4pm to 9am
   times: [16, 17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7, 8]
   type: fish
 - image: images/icons/atlasmoth.png
+  location: On Trees
   months:
     north: [4, 5, 6, 7, 8, 9]
     south: [1, 2, 3, 10, 11, 12]
@@ -63,6 +74,7 @@
   times: [19, 20, 21, 22, 23, 0, 1, 2, 3]
   type: bug
 - image: images/icons/bagworm.png
+  location: Shaking Trees
   months:
     north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
     south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
@@ -73,6 +85,7 @@
     21, 22, 23]
   type: bug
 - image: images/icons/bandeddragonfly.png
+  location: Flying
   months:
     north: [5, 6, 7, 8, 9, 10]
     south: [1, 2, 3, 4, 11, 12]
@@ -82,25 +95,30 @@
   times: [8, 9, 10, 11, 12, 13, 14, 15, 16]
   type: bug
 - image: images/icons/barredknifejaw.png
+  location: Sea
   months:
     north: [3, 4, 5, 6, 7, 8, 9, 10, 11]
     south: [1, 2, 3, 4, 5, 9, 10, 11, 12]
   name: Barred knifejaw
   price: {north: 5000, south: 5000}
+  size: '3'
   time: All Day
   times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
     21, 22, 23]
   type: fish
 - image: images/icons/barreleye.png
+  location: Sea
   months:
     north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
     south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
   name: Barreleye
   price: {north: 15000, south: 15000}
+  size: '2'
   time: 9pm to 4am
   times: [21, 22, 23, 0, 1, 2, 3]
   type: fish
 - image: images/icons/bellcricket.png
+  location: On the Ground
   months:
     north: [9, 10]
     south: [3, 4]
@@ -110,54 +128,65 @@
   times: [17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7]
   type: bug
 - image: images/icons/betta.png
+  location: River
   months:
     north: [5, 6, 7, 8, 9, 10]
     south: [1, 2, 3, 4, 11, 12]
   name: Betta
   price: {north: 2500, south: 2500}
+  size: '2'
   time: 9am to 4pm
   times: [9, 10, 11, 12, 13, 14, 15]
   type: fish
 - image: images/icons/bitterling.png
+  location: River
   months:
     north: [1, 2, 3, 11, 12]
     south: [5, 6, 7, 8, 9]
   name: Bitterling
   price: {north: 900, south: 900}
+  size: '1'
   time: All Day
   times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
     21, 22, 23]
   type: fish
 - image: images/icons/blackbass.png
+  location: River
   months:
     north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
     south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
   name: Black bass
   price: {north: 400, south: 400}
+  size: '4'
   time: All Day
   times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
     21, 22, 23]
   type: fish
 - image: images/icons/blowfish.png
+  location: Sea
   months:
     north: [1, 2, 11, 12]
     south: [5, 6, 7, 8]
   name: Blowfish
   price: {north: 5000, south: 5000}
+  size: '3'
   time: 9pm to 4am
   times: [21, 22, 23, 0, 1, 2, 3]
   type: fish
 - image: images/icons/bluemarlin.png
+  location: Pier
   months:
     north: [1, 2, 3, 4, 7, 8, 9, 11, 12]
     south: [1, 2, 3, 5, 6, 7, 8, 9, 10]
   name: Blue marlin
   price: {north: 10000, south: 10000}
+  size: '6'
   time: All Day
   times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
     21, 22, 23]
   type: fish
 - image: images/icons/blueweevilbeetle.png
+  location: On Trees (Coconut?)
   months:
     north: [7, 8]
     south: [7, 8]
@@ -168,15 +197,18 @@
     21, 22, 23]
   type: bug
 - image: images/icons/bluegill.png
+  location: River
   months:
     north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
     south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
   name: Bluegill
   price: {north: 180, south: 180}
+  size: '2'
   time: 9am to 4pm
   times: [9, 10, 11, 12, 13, 14, 15]
   type: fish
 - image: images/icons/browncicada.png
+  location: On Trees
   months:
     north: [7, 8]
     south: [7, 8]
@@ -186,35 +218,42 @@
   times: [8, 9, 10, 11, 12, 13, 14, 15, 16]
   type: bug
 - image: images/icons/butterflyfish.png
+  location: Sea
   months:
     north: [4, 5, 6, 7, 8, 9]
     south: [1, 2, 3, 10, 11, 12]
   name: Butterfly fish
   price: {north: 1000, south: 1000}
+  size: '2'
   time: All Day
   times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
     21, 22, 23]
   type: fish
 - image: images/icons/carp.png
+  location: Pond
   months:
     north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
     south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
   name: Carp
   price: {north: 300, south: 300}
+  size: '4'
   time: All Day
   times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
     21, 22, 23]
   type: fish
 - image: images/icons/catfish.png
+  location: Pond
   months:
     north: [5, 6, 7, 8, 9, 10]
     south: [1, 2, 3, 4, 11, 12]
   name: Catfish
   price: {north: 800, south: 800}
+  size: '4'
   time: 4pm to 9am
   times: [16, 17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7, 8]
   type: fish
 - image: images/icons/centipede.png
+  location: Hitting Rocks
   months:
     north: [1, 2, 3, 4, 5, 6, 9, 10, 11, 12]
     south: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
@@ -224,24 +263,29 @@
   times: [16, 17, 18, 19, 20, 21, 22]
   type: bug
 - image: images/icons/char.png
+  location: River (Clifftop)
   months:
     north: [3, 4, 5, 6, 9, 10, 11]
     south: [3, 4, 5, 9, 10, 11, 12]
   name: Char
   price: {north: 3800, south: 3800}
+  size: '3'
   time: 4pm to 9am
   times: [16, 17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7, 8]
   type: fish
 - image: images/icons/cherrysalmon.png
+  location: River (Clifftop)  Pond
   months:
     north: [3, 4, 5, 6, 9, 10, 11]
     south: [3, 4, 5, 9, 10, 11, 12]
   name: Cherry Salmon
   price: {north: 1000, south: 1000}
+  size: '3'
   time: 4pm to 9am
   times: [16, 17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7, 8]
   type: fish
 - image: images/icons/cicadashell.png
+  location: On Trees
   months:
     north: [7, 8]
     south: [7, 8]
@@ -252,6 +296,7 @@
     21, 22, 23]
   type: bug
 - image: images/icons/citruslong-hornedbeetle.png
+  location: On Tree Stumps
   months:
     north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
     south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
@@ -262,26 +307,31 @@
     21, 22, 23]
   type: bug
 - image: images/icons/clownfish.png
+  location: Sea
   months:
     north: [4, 5, 6, 7, 8, 9]
     south: [1, 2, 3, 10, 11, 12]
   name: Clown fish
   price: {north: 650, south: 650}
+  size: '1'
   time: All Day
   times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
     21, 22, 23]
   type: fish
 - image: images/icons/coelacanth.png
+  location: Sea (Rainy Days)
   months:
     north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
     south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
   name: Coelacanth
   price: {north: 15000, south: 15000}
+  size: '6'
   time: All Day
   times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
     21, 22, 23]
   type: fish
 - image: images/icons/commonbluebottle.png
+  location: Flying
   months:
     north: [4, 5, 6, 7, 8]
     south: [4, 5, 6, 7, 8]
@@ -292,6 +342,7 @@
     21, 22, 23]
   type: bug
 - image: images/icons/commonbutterfly.png
+  location: Flying
   months:
     north: [1, 2, 3, 4, 5, 6, 9, 10, 11, 12]
     south: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
@@ -331,16 +382,19 @@
     21, 22, 23]
   type: shell
 - image: images/icons/crawfish.png
+  location: Pond
   months:
     north: [4, 5, 6, 7, 8, 9]
     south: [1, 2, 3, 10, 11, 12]
   name: Crawfish
   price: {north: 200, south: 200}
+  size: '2'
   time: All Day
   times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
     21, 22, 23]
   type: fish
 - image: images/icons/cricket.png
+  location: On the Ground
   months:
     north: [9, 10, 11]
     south: [3, 4, 5]
@@ -350,16 +404,19 @@
   times: [17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7]
   type: bug
 - image: images/icons/cruciancarp.png
+  location: River
   months:
     north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
     south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
   name: Crucian carp
   price: {north: 160, south: 160}
+  size: '2'
   time: All Day
   times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
     21, 22, 23]
   type: fish
 - image: false
+  location: On Trees
   months:
     north: [7, 8]
     south: [7, 8]
@@ -369,25 +426,30 @@
   times: [17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7]
   type: bug
 - image: images/icons/dab.png
+  location: Sea
   months:
     north: [1, 2, 3, 4, 10, 11, 12]
     south: [4, 5, 6, 7, 8, 9, 10]
   name: Dab
   price: {north: 300, south: 300}
+  size: '3'
   time: All Day
   times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
     21, 22, 23]
   type: fish
 - image: images/icons/dace.png
+  location: River
   months:
     north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
     south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
   name: Dace
   price: {north: 240, south: 240}
+  size: '3'
   time: 4pm to 9am
   times: [16, 17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7, 8]
   type: fish
 - image: images/icons/damselfly.png
+  location: Flying
   months:
     north: [1, 2, 11, 12]
     south: [1, 2, 11, 12]
@@ -398,6 +460,7 @@
     21, 22, 23]
   type: bug
 - image: images/icons/darnerdragonfly.png
+  location: Flying
   months:
     north: [4, 5, 6, 7, 8, 9, 10]
     south: [1, 2, 3, 4, 10, 11, 12]
@@ -407,6 +470,7 @@
   times: [8, 9, 10, 11, 12, 13, 14, 15, 16]
   type: bug
 - image: images/icons/divingbeetle.png
+  location: On Ponds and Rivers
   months:
     north: [5, 6, 7, 8, 9]
     south: [1, 2, 3, 11, 12]
@@ -416,15 +480,18 @@
   times: [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
   type: bug
 - image: images/icons/dorado.png
+  location: River
   months:
     north: [6, 7, 8, 9]
     south: [1, 2, 3, 12]
   name: Dorado
   price: {north: 15000, south: 15000}
+  size: '5'
   time: 4am to 9pm
   times: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
   type: fish
 - image: images/icons/dronebeetle.png
+  location: On Trees
   months:
     north: [6, 7, 8]
     south: [6, 7, 8]
@@ -435,6 +502,7 @@
     21, 22, 23]
   type: bug
 - image: false
+  location: On the Ground (rolling snowballs)
   months:
     north: [1, 2, 12]
     south: [6, 7, 8]
@@ -445,6 +513,7 @@
     21, 22, 23]
   type: bug
 - image: images/icons/earth-boringdungbeetle.png
+  location: On the Ground
   months:
     north: [7, 8, 9]
     south: [1, 2, 3]
@@ -455,6 +524,7 @@
     21, 22, 23]
   type: bug
 - image: images/icons/emperorbutterfly.png
+  location: Flying
   months:
     north: [1, 2, 3, 6, 7, 8, 9, 12]
     south: [1, 2, 3, 6, 7, 8, 9, 12]
@@ -464,6 +534,7 @@
   times: [17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7]
   type: bug
 - image: images/icons/eveningcicada.png
+  location: On Trees
   months:
     north: [7, 8]
     south: [7, 8]
@@ -473,6 +544,7 @@
   times: [4, 5, 6, 7]
   type: bug
 - image: false
+  location: Flying
   months:
     north: [6]
     south: [6]
@@ -482,6 +554,7 @@
   times: [19, 20, 21, 22, 23, 0, 1, 2, 3]
   type: bug
 - image: images/icons/flea.png
+  location: Villager's Heads
   months:
     north: [4, 5, 6, 7, 8, 9, 10, 11]
     south: [1, 2, 3, 4, 5, 10, 11, 12]
@@ -492,6 +565,7 @@
     21, 22, 23]
   type: bug
 - image: images/icons/fly.png
+  location: On Trash Items
   months:
     north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
     south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
@@ -502,43 +576,52 @@
     21, 22, 23]
   type: bug
 - image: images/icons/footballfish.png
+  location: Sea
   months:
     north: [1, 2, 3, 11, 12]
     south: [5, 6, 7, 8, 9]
   name: Football fish
   price: {north: 2500, south: 2500}
+  size: '4'
   time: 4pm to 9am
   times: [16, 17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7, 8]
   type: fish
 - image: images/icons/freshwatergoby.png
+  location: River
   months:
     north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
     south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
   name: Freshwater Goby
   price: {north: 400, south: 400}
+  size: '2'
   time: 4pm to 9am
   times: [16, 17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7, 8]
   type: fish
 - image: images/icons/frog.png
+  location: Pond
   months:
     north: [5, 6, 7, 8]
     south: [1, 2, 11, 12]
   name: Frog
   price: {north: 120, south: 120}
+  size: '2'
   time: All Day
   times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
     21, 22, 23]
   type: fish
 - image: images/icons/gar.png
+  location: Pond
   months:
     north: [6, 7, 8, 9]
     south: [1, 2, 3, 12]
   name: Gar
   price: {north: 6000, south: 6000}
+  size: '6'
   time: 4pm to 9am
   times: [16, 17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7, 8]
   type: fish
 - image: images/icons/giantcicada.png
+  location: On Trees
   months:
     north: [7, 8]
     south: [7, 8]
@@ -558,15 +641,18 @@
     21, 22, 23]
   type: shell
 - image: images/icons/giantsnakehead.png
+  location: Pond
   months:
     north: [6, 7, 8]
     south: [1, 2, 12]
   name: Giant snakehead
   price: {north: 5500, south: 5500}
+  size: '5'
   time: 9am to 4pm
   times: [9, 10, 11, 12, 13, 14, 15]
   type: fish
 - image: false
+  location: On Trees
   months:
     north: [7, 8]
     south: [7, 8]
@@ -576,16 +662,19 @@
   times: [23, 0, 1, 2, 3, 4, 5, 6, 7]
   type: bug
 - image: images/icons/gianttrevally.png
+  location: Pier
   months:
     north: [5, 6, 7, 8, 9, 10]
     south: [1, 2, 3, 4, 11, 12]
   name: Giant trevally
   price: {north: 4500, south: 4500}
+  size: '5'
   time: All Day
   times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
     21, 22, 23]
   type: fish
 - image: images/icons/giantwaterbug.png
+  location: On Ponds and Rivers
   months:
     north: [4, 5, 6, 7, 8, 9]
     south: [1, 2, 3, 10, 11, 12]
@@ -595,6 +684,7 @@
   times: [19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7]
   type: bug
 - image: images/icons/giraffestag.png
+  location: On Trees
   months:
     north: [7, 8]
     south: [7, 8]
@@ -604,15 +694,18 @@
   times: [17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7]
   type: bug
 - image: images/icons/goldentrout.png
+  location: River (Clifftop)
   months:
     north: [3, 4, 5, 9, 10, 11]
     south: [3, 4, 5, 9, 10, 11]
   name: Golden Trout
   price: {north: 15000, south: 15000}
+  size: '4'
   time: 4pm to 9am
   times: [16, 17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7, 8]
   type: fish
 - image: false
+  location: On Trees
   months:
     north: [7, 8]
     south: [7, 8]
@@ -622,16 +715,19 @@
   times: [17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7]
   type: bug
 - image: images/icons/goldfish.png
+  location: Pond
   months:
     north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
     south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
   name: Goldfish
   price: {north: 1300, south: 1300}
+  size: '1'
   time: All Day
   times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
     21, 22, 23]
   type: fish
 - image: false
+  location: On Trees (Coconut)
   months:
     north: [6, 7, 8, 9]
     south: [1, 2, 3, 12]
@@ -641,6 +737,7 @@
   times: [17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7]
   type: bug
 - image: images/icons/grasshopper.png
+  location: On the Ground
   months:
     north: [7, 8, 9]
     south: [1, 2, 3]
@@ -650,6 +747,7 @@
   times: [8, 9, 10, 11, 12, 13, 14, 15, 16]
   type: bug
 - image: images/icons/greatpurpleemperor.png
+  location: Flying
   months:
     north: [5, 6, 7, 8]
     south: [5, 6, 7, 8]
@@ -659,33 +757,40 @@
   times: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
   type: bug
 - image: images/icons/greatwhiteshark.png
+  location: Sea
   months:
     north: [6, 7, 8, 9]
     south: [1, 2, 3, 12]
   name: Great white shark
   price: {north: 15000, south: 15000}
+  size: 6 (Fin)
   time: 4pm to 9am
   times: [16, 17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7, 8]
   type: fish
 - image: images/icons/guppy.png
+  location: River
   months:
     north: [4, 5, 6, 7, 8, 9, 10, 11]
     south: [1, 2, 3, 4, 5, 10, 11, 12]
   name: Guppy
   price: {north: 1300, south: 1300}
+  size: '1'
   time: 9am to 4pm
   times: [9, 10, 11, 12, 13, 14, 15]
   type: fish
 - image: images/icons/hammerheadshark.png
+  location: Sea
   months:
     north: [6, 7, 8, 9]
     south: [1, 2, 3, 12]
   name: Hammerhead shark
   price: {north: 8000, south: 8000}
+  size: 6 (Fin)
   time: 4pm to 9am
   times: [16, 17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7, 8]
   type: fish
 - image: images/icons/hermitcrab.png
+  location: Beach disguised as Shells
   months:
     north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
     south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
@@ -695,6 +800,7 @@
   times: [19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7]
   type: bug
 - image: images/icons/honeybee.png
+  location: Flying near Flowers
   months:
     north: [3, 4, 5, 6, 7]
     south: [1, 9, 10, 11, 12]
@@ -704,6 +810,7 @@
   times: [8, 9, 10, 11, 12, 13, 14, 15, 16]
   type: bug
 - image: false
+  location: On Trees
   months:
     north: [7, 8]
     south: [7, 8]
@@ -713,6 +820,7 @@
   times: [17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7]
   type: bug
 - image: false
+  location: On Trees
   months:
     north: [7, 8]
     south: [7, 8]
@@ -722,6 +830,7 @@
   times: [17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7]
   type: bug
 - image: false
+  location: On Trees
   months:
     north: [7, 8]
     south: [7, 8]
@@ -731,6 +840,7 @@
   times: [17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7]
   type: bug
 - image: false
+  location: On Trees
   months:
     north: [7, 8]
     south: [7, 8]
@@ -740,16 +850,19 @@
   times: [17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7]
   type: bug
 - image: images/icons/horsemackerel.png
+  location: Sea
   months:
     north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
     south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
   name: Horse mackerel
   price: {north: 150, south: 150}
+  size: '2'
   time: All Day
   times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
     21, 22, 23]
   type: fish
 - image: false
+  location: On Tree Stumps
   months:
     north: [4, 5, 6, 7, 8]
     south: [4, 5, 6, 7, 8]
@@ -760,34 +873,41 @@
     21, 22, 23]
   type: bug
 - image: images/icons/killifish.png
+  location: Pond
   months:
     north: [4, 5, 6, 7, 8]
     south: [1, 2, 10, 11, 12]
   name: Killifish
   price: {north: 300, south: 0}
+  size: '1'
   time: 9am to 4pm
   times: [9, 10, 11, 12, 13, 14, 15]
   type: fish
 - image: images/icons/kingsalmon.png
+  location: River (Mouth)
   months:
     north: [9]
     south: [3]
   name: King Salmon
   price: {north: 1800, south: 1800}
+  size: '6'
   time: All Day
   times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
     21, 22, 23]
   type: fish
 - image: images/icons/koi.png
+  location: Pond
   months:
     north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
     south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
   name: Koi
   price: {north: 4000, south: 4000}
+  size: '4'
   time: 4pm to 9am
   times: [16, 17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7, 8]
   type: fish
 - image: images/icons/ladybug.png
+  location: On Flowers
   months:
     north: [3, 4, 5, 6, 10]
     south: [4, 9, 10, 11, 12]
@@ -797,16 +917,19 @@
   times: [8, 9, 10, 11, 12, 13, 14, 15, 16]
   type: bug
 - image: images/icons/loach.png
+  location: River
   months:
     north: [3, 4, 5]
     south: [9, 10, 11]
   name: Loach
   price: {north: 400, south: 400}
+  size: '2'
   time: All Day
   times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
     21, 22, 23]
   type: fish
 - image: images/icons/longlocust.png
+  location: On the Ground
   months:
     north: [4, 5, 6, 7, 8, 9, 10, 11]
     south: [1, 2, 3, 4, 5, 10, 11, 12]
@@ -816,6 +939,7 @@
   times: [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
   type: bug
 - image: images/icons/madagascansunsetmoth.png
+  location: Flying
   months:
     north: [4, 5, 6, 7, 8, 9]
     south: [1, 2, 3, 10, 11, 12]
@@ -825,16 +949,19 @@
   times: [8, 9, 10, 11, 12, 13, 14, 15]
   type: bug
 - image: images/icons/mahi-mahi.png
+  location: Pier
   months:
     north: [5, 6, 7, 8, 9, 10]
     south: [1, 2, 3, 4, 11, 12]
   name: Mahi-mahi
   price: {north: 6000, south: 6000}
+  size: '5'
   time: All Day
   times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
     21, 22, 23]
   type: fish
 - image: images/icons/man-facedstinkbug.png
+  location: On Flowers
   months:
     north: [3, 4, 5, 6, 7, 8, 9, 10]
     south: [1, 2, 3, 4, 9, 10, 11, 12]
@@ -844,6 +971,7 @@
   times: [19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7]
   type: bug
 - image: images/icons/mantis.png
+  location: On Flowers
   months:
     north: [3, 4, 5, 6, 7, 8, 9, 10, 11]
     south: [1, 2, 3, 4, 5, 9, 10, 11, 12]
@@ -853,6 +981,7 @@
   times: [8, 9, 10, 11, 12, 13, 14, 15, 16]
   type: bug
 - image: images/icons/migratorylocust.png
+  location: On the Ground
   months:
     north: [8, 9, 10, 11]
     south: [2, 3, 4, 5]
@@ -862,15 +991,18 @@
   times: [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
   type: bug
 - image: images/icons/mittencrab.png
+  location: River
   months:
     north: [9, 10, 11]
     south: [3, 4, 5]
   name: Mitten Crab
   price: {north: 2000, south: 2000}
+  size: '2'
   time: 4pm to 9am
   times: [16, 17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7, 8]
   type: fish
 - image: false
+  location: On Trees
   months:
     north: [7, 8]
     south: [7, 8]
@@ -881,6 +1013,7 @@
     21, 22, 23]
   type: bug
 - image: images/icons/molecricket.png
+  location: Underground
   months:
     north: [1, 2, 3, 4, 5, 11, 12]
     south: [5, 6, 7, 8, 9, 10, 11]
@@ -891,6 +1024,7 @@
     21, 22, 23]
   type: bug
 - image: images/icons/monarchbutterfly.png
+  location: Flying
   months:
     north: [9, 10, 11]
     south: [3, 4, 5]
@@ -900,16 +1034,19 @@
   times: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
   type: bug
 - image: images/icons/morayeel.png
+  location: Sea
   months:
     north: [8, 9, 10]
     south: [2, 3, 4]
   name: Moray eel
   price: {north: 2000, south: 2000}
+  size: Narrow
   time: All Day
   times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
     21, 22, 23]
   type: fish
 - image: images/icons/mosquito.png
+  location: Flying
   months:
     north: [6, 7, 8, 9]
     south: [1, 2, 3, 12]
@@ -919,6 +1056,7 @@
   times: [17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3]
   type: bug
 - image: images/icons/moth.png
+  location: Flying by Light
   months:
     north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
     south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
@@ -928,62 +1066,75 @@
   times: [19, 20, 21, 22, 23, 0, 1, 2, 3]
   type: bug
 - image: images/icons/napoleonfish.png
+  location: Sea
   months:
     north: [7, 8]
     south: [1, 2]
   name: Napoleonfish
   price: {north: 10000, south: 10000}
+  size: '6'
   time: 4am to 9pm
   times: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
   type: fish
 - image: images/icons/neontetra.png
+  location: River
   months:
     north: [4, 5, 6, 7, 8, 9, 10, 11]
     south: [1, 2, 3, 4, 5, 10, 11, 12]
   name: Neon tetra
   price: {north: 500, south: 500}
+  size: '1'
   time: 9am to 4pm
   times: [9, 10, 11, 12, 13, 14, 15]
   type: fish
 - image: images/icons/nibblefish.png
+  location: River
   months:
     north: [5, 6, 7, 8, 9]
     south: [1, 2, 3, 11, 12]
   name: Nibble Fish
   price: {north: 1500, south: 1500}
+  size: '2'
   time: 9am to 4pm
   times: [9, 10, 11, 12, 13, 14, 15]
   type: fish
 - image: images/icons/oarfish.png
+  location: Sea
   months:
     north: [1, 2, 3, 4, 5, 12]
     south: [6, 7, 8, 9, 10, 11]
   name: Oarfish
   price: {north: 9000, south: 9000}
+  size: '6'
   time: All Day
   times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
     21, 22, 23]
   type: fish
 - image: images/icons/oceansunfish.png
+  location: Sea
   months:
     north: [7, 8, 9]
     south: [1, 2, 3]
   name: Ocean sunfish
   price: {north: 4000, south: 4000}
+  size: 6 (Fin)
   time: 4am to 9pm
   times: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
   type: fish
 - image: images/icons/oliveflounder.png
+  location: Sea
   months:
     north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
     south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
   name: Olive flounder
   price: {north: 800, south: 800}
+  size: '5'
   time: All Day
   times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
     21, 22, 23]
   type: fish
 - image: images/icons/orchidmantis.png
+  location: On Flowers (White)
   months:
     north: [3, 4, 5, 6, 7, 8, 9, 10, 11]
     south: [1, 2, 3, 4, 5, 9, 10, 11, 12]
@@ -1003,15 +1154,18 @@
     21, 22, 23]
   type: shell
 - image: images/icons/palechub.png
+  location: River
   months:
     north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
     south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
   name: Pale chub
   price: {north: 200, south: 200}
+  size: '1'
   time: 9am to 4pm
   times: [9, 10, 11, 12, 13, 14, 15]
   type: fish
 - image: images/icons/paperkitebutterfly.png
+  location: Flying
   months:
     north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
     south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
@@ -1021,6 +1175,7 @@
   times: [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
   type: bug
 - image: images/icons/peacockbutterfly.png
+  location: Flying by Hybrid Flowers
   months:
     north: [3, 4, 5, 6]
     south: [9, 10, 11, 12]
@@ -1040,16 +1195,19 @@
     21, 22, 23]
   type: shell
 - image: images/icons/pike.png
+  location: River
   months:
     north: [9, 10, 11, 12]
     south: [3, 4, 5, 6]
   name: Pike
   price: {north: 1800, south: 1800}
+  size: '5'
   time: All Day
   times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
     21, 22, 23]
   type: fish
 - image: images/icons/pillbug.png
+  location: Hitting Rocks
   months:
     north: [1, 2, 3, 4, 5, 6, 9, 10, 11, 12]
     south: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
@@ -1059,25 +1217,30 @@
   times: [23, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
   type: bug
 - image: images/icons/piranha.png
+  location: River
   months:
     north: [6, 7, 8, 9]
     south: [1, 2, 3, 12]
   name: Piranha
   price: {north: 2500, south: 2500}
+  size: '2'
   time: 9am to 4am
   times: [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3]
   type: fish
 - image: images/icons/pondsmelt.png
+  location: River
   months:
     north: [1, 2, 12]
     south: [6, 7, 8]
   name: Pond smelt
   price: {north: 500, south: 500}
+  size: '2'
   time: All Day
   times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
     21, 22, 23]
   type: fish
 - image: images/icons/pondskater.png
+  location: On Ponds and Rivers
   months:
     north: [5, 6, 7, 8, 9]
     south: [1, 2, 3, 11, 12]
@@ -1087,11 +1250,13 @@
   times: [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
   type: bug
 - image: images/icons/pop-eyedgoldfish.png
+  location: Pond
   months:
     north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
     south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
   name: Pop-eyed Goldfish
   price: {north: 1300, south: 1300}
+  size: '1'
   time: 9am to 4pm
   times: [9, 10, 11, 12, 13, 14, 15]
   type: fish
@@ -1106,16 +1271,19 @@
     21, 22, 23]
   type: shell
 - image: images/icons/pufferfish.png
+  location: Sea
   months:
     north: [7, 8, 9]
     south: [1, 2, 3]
   name: Puffer fish
   price: {north: 250, south: 250}
+  size: '3'
   time: All Day
   times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
     21, 22, 23]
   type: fish
 - image: images/icons/queenalexandra'sbirdwing.png
+  location: Flying
   months:
     north: [5, 6, 7, 8, 9]
     south: [1, 2, 3, 11, 12]
@@ -1125,6 +1293,7 @@
   times: [8, 9, 10, 11, 12, 13, 14, 15]
   type: bug
 - image: false
+  location: On Trees
   months:
     north: [6, 7, 8, 9]
     south: [1, 2, 3, 12]
@@ -1134,15 +1303,18 @@
   times: [19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7]
   type: bug
 - image: images/icons/rainbowfish.png
+  location: River
   months:
     north: [5, 6, 7, 8, 9, 10]
     south: [1, 2, 3, 4, 11, 12]
   name: Rainbowfish
   price: {north: 800, south: 800}
+  size: '1'
   time: 9am to 4pm
   times: [9, 10, 11, 12, 13, 14, 15]
   type: fish
 - image: images/icons/rajahbrooke'sbirdwing.png
+  location: Flying
   months:
     north: [1, 2, 4, 5, 6, 7, 8, 9, 12]
     south: [1, 2, 3, 6, 7, 8, 10, 11, 12]
@@ -1152,24 +1324,29 @@
   times: [8, 9, 10, 11, 12, 13, 14, 15, 16]
   type: bug
 - image: images/icons/ranchugoldfish.png
+  location: Pond
   months:
     north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
     south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
   name: Ranchu Goldfish
   price: {north: 4500, south: 4500}
+  size: '1'
   time: 9am to 4pm
   times: [9, 10, 11, 12, 13, 14, 15]
   type: fish
 - image: images/icons/ray.png
+  location: Sea
   months:
     north: [8, 9, 10, 11]
     south: [2, 3, 4, 5]
   name: Ray
   price: {north: 3000, south: 3000}
+  size: '5'
   time: 4am to 9pm
   times: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
   type: fish
 - image: images/icons/reddragonfly.png
+  location: Flying
   months:
     north: [9, 10]
     south: [3, 4]
@@ -1179,26 +1356,31 @@
   times: [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
   type: bug
 - image: images/icons/redsnapper.png
+  location: Sea
   months:
     north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
     south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
   name: Red snapper
   price: {north: 3000, south: 3000}
+  size: '3'
   time: All Day
   times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
     21, 22, 23]
   type: fish
 - image: images/icons/ribboneel.png
+  location: Sea
   months:
     north: [6, 7, 8, 9, 10]
     south: [1, 2, 3, 4, 12]
   name: Ribbon eel
   price: {north: 600, south: 600}
+  size: Narrow
   time: All Day
   times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
     21, 22, 23]
   type: fish
 - image: images/icons/ricegrasshopper.png
+  location: On the Ground
   months:
     north: [8, 9, 10, 11]
     south: [2, 3, 4, 5]
@@ -1208,6 +1390,7 @@
   times: [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
   type: bug
 - image: images/icons/robustcicada.png
+  location: On Trees
   months:
     north: [7, 8]
     south: [7, 8]
@@ -1217,6 +1400,7 @@
   times: [8, 9, 10, 11, 12, 13, 14, 15, 16]
   type: bug
 - image: images/icons/rosaliabatesibeetle.png
+  location: On Tree Stumps
   months:
     north: [5, 6, 7, 8, 9]
     south: [1, 2, 3, 11, 12]
@@ -1227,20 +1411,24 @@
     21, 22, 23]
   type: bug
 - image: images/icons/saddledbichir.png
+  location: River
   months:
     north: [6, 7, 8, 9]
     south: [1, 2, 3, 12]
   name: Saddled Bichir
   price: {north: 4000, south: 4000}
+  size: '4'
   time: 9pm to 4am
   times: [21, 22, 23, 0, 1, 2, 3]
   type: fish
 - image: images/icons/salmon.png
+  location: River (Mouth)
   months:
     north: [9]
     south: [3]
   name: Salmon
   price: {north: 700, south: 700}
+  size: '4'
   time: All Day
   times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
     21, 22, 23]
@@ -1256,15 +1444,18 @@
     21, 22, 23]
   type: shell
 - image: images/icons/sawshark.png
+  location: Sea
   months:
     north: [6, 7, 8, 9]
     south: [1, 2, 3, 12]
   name: Saw shark
   price: {north: 12000, south: 12000}
+  size: 6 (Fin)
   time: 4pm to 9am
   times: [16, 17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7, 8]
   type: fish
 - image: false
+  location: On Trees
   months:
     north: [7, 8]
     south: [7, 8]
@@ -1285,6 +1476,7 @@
     21, 22, 23]
   type: shell
 - image: false
+  location: On Trees
   months:
     north: [7, 8]
     south: [7, 8]
@@ -1294,6 +1486,7 @@
   times: [23, 0, 1, 2, 3, 4, 5, 6, 7]
   type: bug
 - image: images/icons/scorpion.png
+  location: On the Ground
   months:
     north: [5, 6, 7, 8, 9, 10]
     south: [1, 2, 3, 4, 11, 12]
@@ -1303,31 +1496,37 @@
   times: [19, 20, 21, 22, 23, 0, 1, 2, 3]
   type: bug
 - image: images/icons/seabass.png
+  location: Sea
   months:
     north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
     south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
   name: Sea bass
   price: {north: 400, south: 400}
+  size: '5'
   time: All Day
   times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
     21, 22, 23]
   type: fish
 - image: images/icons/seabutterfly.png
+  location: Sea
   months:
     north: [1, 2, 3, 12]
     south: [6, 7, 8, 9]
   name: Sea butterfly
   price: {north: 1000, south: 1000}
+  size: '1'
   time: All Day
   times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
     21, 22, 23]
   type: fish
 - image: images/icons/seahorse.png
+  location: Sea
   months:
     north: [4, 5, 6, 7, 8, 9, 10, 11]
     south: [1, 2, 3, 4, 5, 10, 11, 12]
   name: Sea horse
   price: {north: 1100, south: 1100}
+  size: '1'
   time: All Day
   times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
     21, 22, 23]
@@ -1343,6 +1542,7 @@
     21, 22, 23]
   type: shell
 - image: images/icons/snail.png
+  location: On Rocks (Rain)
   months:
     north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
     south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
@@ -1353,24 +1553,29 @@
     21, 22, 23]
   type: bug
 - image: images/icons/snappingturtle.png
+  location: River
   months:
     north: [4, 5, 6, 7, 8, 9, 10]
     south: [1, 2, 3, 4, 10, 11, 12]
   name: Snapping Turtle
   price: {north: 5000, south: 5000}
+  size: '5'
   time: 9pm to 4am
   times: [21, 22, 23, 0, 1, 2, 3]
   type: fish
 - image: images/icons/soft-shelledturtle.png
+  location: River
   months:
     north: [8, 9]
     south: [2, 3]
   name: Soft-shelled Turtle
   price: {north: 3750, south: 3750}
+  size: '4'
   time: 4pm to 9am
   times: [16, 17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7, 8]
   type: fish
 - image: images/icons/spider.png
+  location: Shaking Trees
   months:
     north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
     south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
@@ -1380,16 +1585,19 @@
   times: [19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7]
   type: bug
 - image: images/icons/squid.png
+  location: Sea
   months:
     north: [1, 2, 3, 4, 5, 6, 7, 8, 12]
     south: [1, 2, 6, 7, 8, 9, 10, 11, 12]
   name: Squid
   price: {north: 500, south: 500}
+  size: '3'
   time: All Day
   times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
     21, 22, 23]
   type: fish
 - image: images/icons/stinkbug.png
+  location: On Flowers
   months:
     north: [3, 4, 5, 6, 7, 8, 9, 10]
     south: [1, 2, 3, 4, 9, 10, 11, 12]
@@ -1400,65 +1608,78 @@
     21, 22, 23]
   type: bug
 - image: images/icons/stringfish.png
+  location: River (Clifftop)
   months:
     north: [1, 2, 3, 12]
     south: [6, 7, 8, 9]
   name: Stringfish
   price: {north: 15000, south: 15000}
+  size: '6'
   time: 4pm to 9am
   times: [16, 17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7, 8]
   type: fish
 - image: images/icons/sturgeon.png
+  location: River (Mouth)
   months:
     north: [1, 2, 3, 9, 10, 11, 12]
     south: [3, 4, 5, 6, 7, 8, 9]
   name: Sturgeon
   price: {north: 10000, south: 10000}
+  size: '6'
   time: All Day
   times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
     21, 22, 23]
   type: fish
 - image: images/icons/suckerfish.png
+  location: Sea
   months:
     north: [6, 7, 8, 9]
     south: [1, 2, 3, 12]
   name: Suckerfish
   price: {north: 1500, south: 1500}
+  size: 6 (Fin)
   time: All Day
   times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
     21, 22, 23]
   type: fish
 - image: images/icons/surgeonfish.png
+  location: Sea
   months:
     north: [4, 5, 6, 7, 8, 9]
     south: [1, 2, 3, 10, 11, 12]
   name: Surgeonfish
   price: {north: 1000, south: 1000}
+  size: '2'
   time: All Day
   times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
     21, 22, 23]
   type: fish
 - image: images/icons/sweetfish.png
+  location: River
   months:
     north: [7, 8, 9]
     south: [1, 2, 3]
   name: Sweetfish
   price: {north: 900, south: 900}
+  size: '3'
   time: All Day
   times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
     21, 22, 23]
   type: fish
 - image: images/icons/tadpole.png
+  location: Pond
   months:
     north: [3, 4, 5, 6, 7]
     south: [1, 9, 10, 11, 12]
   name: Tadpole
   price: {north: 100, south: 100}
+  size: '1'
   time: All Day
   times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
     21, 22, 23]
   type: fish
 - image: images/icons/tarantula.png
+  location: On the Ground
   months:
     north: [1, 2, 3, 4, 11, 12]
     south: [5, 6, 7, 8, 9, 10]
@@ -1468,6 +1689,7 @@
   times: [19, 20, 21, 22, 23, 0, 1, 2, 3]
   type: bug
 - image: images/icons/tigerbeetle.png
+  location: On the Ground
   months:
     north: [2, 3, 4, 5, 6, 7, 8, 9, 10]
     south: [1, 2, 3, 4, 8, 9, 10, 11, 12]
@@ -1478,6 +1700,7 @@
     21, 22, 23]
   type: bug
 - image: images/icons/tigerbutterfly.png
+  location: Flying
   months:
     north: [3, 4, 5, 6, 7, 8, 9]
     south: [1, 2, 3, 9, 10, 11, 12]
@@ -1487,21 +1710,25 @@
   times: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
   type: bug
 - image: images/icons/tilapia.png
+  location: River
   months:
     north: [6, 7, 8, 9, 10]
     south: [1, 2, 3, 4, 12]
   name: Tilapia
   price: {north: 800, south: 800}
+  size: '3'
   time: All Day
   times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
     21, 22, 23]
   type: fish
 - image: images/icons/tuna.png
+  location: Pier
   months:
     north: [1, 2, 3, 4, 11, 12]
     south: [5, 6, 7, 8, 9, 10]
   name: Tuna
   price: {north: 7000, south: 7000}
+  size: '6'
   time: All Day
   times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
     21, 22, 23]
@@ -1517,6 +1744,7 @@
     21, 22, 23]
   type: shell
 - image: images/icons/violinbeetle.png
+  location: On Tree Stumps
   months:
     north: [5, 6, 9, 10, 11]
     south: [3, 4, 5, 11, 12]
@@ -1527,6 +1755,7 @@
     21, 22, 23]
   type: bug
 - image: images/icons/walkercicada.png
+  location: On Trees
   months:
     north: [8, 9]
     south: [2, 3]
@@ -1536,6 +1765,7 @@
   times: [8, 9, 10, 11, 12, 13, 14, 15, 16]
   type: bug
 - image: images/icons/walkingleaf.png
+  location: Under Trees Disguised as Leafs
   months:
     north: [7, 8, 9]
     south: [1, 2, 3]
@@ -1546,6 +1776,7 @@
     21, 22, 23]
   type: bug
 - image: false
+  location: On Trees
   months:
     north: [7, 8, 9, 10, 11]
     south: [1, 2, 3, 4, 5]
@@ -1555,6 +1786,7 @@
   times: [4, 5, 6, 7]
   type: bug
 - image: images/icons/wasp.png
+  location: Shaking Trees
   months:
     north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
     south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
@@ -1565,16 +1797,19 @@
     21, 22, 23]
   type: bug
 - image: images/icons/whaleshark.png
+  location: Sea
   months:
     north: [6, 7, 8, 9]
     south: [1, 2, 3, 12]
   name: Whale shark
   price: {north: 13000, south: 13000}
+  size: 6 (Fin)
   time: All Day
   times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
     21, 22, 23]
   type: fish
 - image: images/icons/wharfroach.png
+  location: On Beach Rocks
   months:
     north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
     south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
@@ -1595,6 +1830,7 @@
     21, 22, 23]
   type: shell
 - image: images/icons/yellowbutterfly.png
+  location: Flying
   months:
     north: [3, 4, 5, 6, 9, 10]
     south: [3, 4, 9, 10, 11, 12]
@@ -1604,21 +1840,25 @@
   times: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
   type: bug
 - image: images/icons/yellowperch.png
+  location: River
   months:
     north: [1, 2, 3, 10, 11, 12]
     south: [4, 5, 6, 7, 8, 9]
   name: Yellow perch
   price: {north: 300, south: 300}
+  size: '3'
   time: All Day
   times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
     21, 22, 23]
   type: fish
 - image: images/icons/zebraturkeyfish.png
+  location: Sea
   months:
     north: [4, 5, 6, 7, 8, 9, 10, 11]
     south: [1, 2, 3, 4, 5, 10, 11, 12]
   name: Zebra turkeyfish
   price: {north: 500, south: 500}
+  size: '3'
   time: All Day
   times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
     21, 22, 23]

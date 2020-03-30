@@ -6,9 +6,14 @@
 </head>
 <body>
   <a href="{{ '/' | relative_url }}">North Hemisphere, by Price</a>
-  <a href="{{ '/south' | relative_url }}">South Hemisphere, by Price</a>
   <a href="{{ '/north-name' | relative_url }}">North Hemisphere, by Name</a>
+  <a href="{{ '/north-fishing' | relative_url }}">North Hemisphere Fishing Guide</a>
+  <br>
+  <a href="{{ '/south' | relative_url }}">South Hemisphere, by Price</a>
   <a href="{{ '/south-name' | relative_url }}">South Hemisphere, by Name</a>
+  <a href="{{ '/south-fishing' | relative_url }}">South Hemisphere Fishing Guide</a>
+  <br>
+  <em>All data from <a href="https://animalcrossing.fandom.com/">animalcrossing.fandom.com</a></em>
 
   {{ content }}
 
@@ -29,23 +34,24 @@
       font-variant-numeric: tabular-nums;
       color: #EEEEEE;
       background: #222222;
+      max-width: 800px;
+      margin: auto;
     }
-    a {
+    a { color: #EEEEEE; }
+    body > a {
       display: block;
       font-size: 1.5em;
-      color: #EEEEEE;
     }
     h1 {
       text-align: center;
       font-size: 3em;
+      margin: 96px 0 24px 0;
     }
     .items {
       display: grid;
       grid-auto-rows: 192px;
       grid-template-columns: auto auto min-content;
       align-items: center;
-      max-width: 800px;
-      margin: auto;
     }
     .items > div {
       margin-bottom: 6px;
@@ -74,14 +80,31 @@
       font-size: 12px;
       padding-right: 20px;
     }
+    .item-location {
+      text-align: center;
+      font-size: 20px;
+      padding-right: 20px;
+    }
+    .item-size {
+      display: block;
+      font-size: 60px;
+      line-height: 70px;
+    }
     {% for i in (1..12) %}
-    body.month-{{ i }} .month-{{ i }} { display: block; }
+    body.month-{{ i }} .month-{{ i }}:not(.exact) { display: block; }
     {% endfor %}
     {% for i in (0..23) %}
     body.time-{{ i }} .time-{{ i }} {
       opacity: 1;
       filter: none;
     }
+    {% endfor %}
+    {% for m in (1..12) %}
+    {% for t in (0..23) %}
+    body.month-{{ m }}.time-{{ t }} .exact.month-{{ m }}.time-{{ t }} {
+      display: block;
+    }
+    {% endfor %}
     {% endfor %}
   </style>
 </body>
