@@ -1,5 +1,6 @@
 import collections
 import os
+import functools
 
 import requests
 import requests_cache
@@ -10,13 +11,17 @@ import yaml
 _parser = html.HTMLParser(encoding="utf-8")
 
 def parseTime(time):
-  def _parseTime(t):
-    n, _, suf = t.partition(" ")
-    return int(n) + (12 if suf.lower() == "pm" else 0)
-  s, _, e = time.partition(" - ")
-  s, e = _parseTime(s), _parseTime(e)
-  e = e + 24 if e < s else e
-  return [v % 24 for v in range(s,e)], "{:d}{} to {:d}{}".format(s%12, "am" if s%24 <= 12 else "pm", e%12, "am" if e%24 <= 12 else "pm")
+  def _parseTime(time):
+    def __parseTime(t):
+      n, _, suf = t.partition(" ")
+      if not suf:
+        n, suf = t[:-2], t[-2:]
+      return int(n) + (12 if suf.lower() == "pm" else 0)
+    s, _, e = time.partition(" - ")
+    s, e = __parseTime(s), __parseTime(e)
+    e = e + 24 if e < s else e
+    return [v % 24 for v in range(s,e)], "{:d}{} to {:d}{}".format(s%12, "am" if s%24 <= 12 else "pm", e%12, "am" if e%24 <= 12 else "pm")
+  return functools.reduce((lambda a, b: [list(set(a[0])|set(b[0])), a[1]+" & "+b[1]]), [_parseTime(t.strip()) for t in time.split("&")])
 
 def dlimg(fname, url):
   if os.path.exists(fname):
