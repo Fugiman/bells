@@ -156,7 +156,7 @@
     north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
     south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
   name: Black bass
-  price: {north: 320, south: 400}
+  price: {north: 400, south: 400}
   size: '4'
   time: All Day
   times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
@@ -279,7 +279,7 @@
     north: [3, 4, 5, 6, 9, 10, 11]
     south: [3, 4, 5, 9, 10, 11, 12]
   name: Cherry salmon
-  price: {north: 800, south: 1000}
+  price: {north: 1000, south: 1000}
   size: '3'
   time: 4pm to 9am
   times: [16, 17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7, 8]
@@ -319,7 +319,7 @@
     21, 22, 23]
   type: fish
 - image: images/icons/coelacanth.png
-  location: Sea
+  location: Sea (Raining)
   months:
     north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
     south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
@@ -442,7 +442,7 @@
     north: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
     south: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
   name: Dace
-  price: {north: 192, south: 240}
+  price: {north: 240, south: 240}
   size: '3'
   time: 4pm to 9am
   times: [16, 17, 18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7, 8]
